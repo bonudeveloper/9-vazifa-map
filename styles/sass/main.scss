@@ -1,0 +1,9 @@
+@import "loops";
+.blocks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+body {
+    background-color: burlywood;
+}

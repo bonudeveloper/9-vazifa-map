@@ -1,0 +1,26 @@
+$colors : (
+    primary: blue,
+    secondary: gray,
+    info: aqua,
+    danger: red,
+    warning: yellow,
+    success: green,
+    dark: black,
+    light: white,
+    indigo: indigo,
+    orange: orange,
+);
+
+@each $name, $type in $colors {
+    .block-#{$name} {
+         color: $type;
+         background-color: $type;
+         border: 1px solid $type;
+         box-shadow: 10px 10px $type;
+         text-shadow: 10px 10px $type;
+         width: 200px;
+         height: 200px;
+    }
+
+}
+
